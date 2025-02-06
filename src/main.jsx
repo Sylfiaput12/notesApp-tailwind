@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename='notesApp-tailwind/'>
+    <BrowserRouter basename='/notesApp-tailwind/'>
     <App />
     </BrowserRouter>
 </StrictMode>,
