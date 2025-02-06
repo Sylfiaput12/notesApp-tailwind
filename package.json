@@ -1,6 +1,6 @@
 {
   "name": "notes-app",
-  "homepage": "https://sylfiaput12.github.io/notesApp-tailwind/",
+  "homepage": "https://Sylfiaput12.github.io/notesApp-tailwind/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
